@@ -1,0 +1,27 @@
+{
+  "name": "intro-to-javascript-backend",
+  "version": "1.0.0",
+  "description": "intro to backend",
+  "main": "backend/src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/src/index.js",
+    "dev": "nodemon backend/src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gbadegesintestimony/Intro-to-javascript-backend.git"
+  },
+  "author": "Testimony",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gbadegesintestimony/Intro-to-javascript-backend/issues"
+  },
+  "homepage": "https://github.com/gbadegesintestimony/Intro-to-javascript-backend#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.1.3",
+    "nodemon": "^3.1.11"
+  }
+}
