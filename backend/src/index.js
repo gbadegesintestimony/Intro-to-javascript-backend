@@ -6,7 +6,7 @@ dotenv.config();
 
 const startServer = async () => {
   try {
-    await connectDB;
+    await connectDB();
 
     app.on("error", (error) => {
       console.log("Error", error);
